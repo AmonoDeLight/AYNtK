@@ -26,9 +26,35 @@ main {
     padding: 20px;
 }
 
+body {
+    background-color: #f0f0f0; /* Замените этот цвет на тот, который вам нравится */
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+.back-button {
+    position: absolute;
+    top: 40px; 
+    left: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
 }
