@@ -27,7 +27,7 @@ main {
 }
 
 body {
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0;
 }
 
 footer {
@@ -35,7 +35,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
+	position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -57,4 +57,50 @@ footer {
     text-decoration: none;
     display: inline-block;
     border-radius: 5px;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -500px; /* Скрыто справа */
+    width: 500px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: right 0.3s ease; /* Анимация появления/скрытия справа */
+
+    /* Добавим немного тени для выделения от фона */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.side-menu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.side-menu a:hover {
+    background-color: #555;
+}
+
+#open-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px; /* Кнопка открытия меню будет в правом верхнем углу */
+}
+
+#close-menu {
+    position: absolute;
+    bottom: 20px;
+    right: 20px; /* Кнопка закрытия меню будет в правом нижнем углу */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#close-menu:hover {
+    background-color: #0056b3;
 }
