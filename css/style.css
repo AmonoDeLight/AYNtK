@@ -208,7 +208,7 @@ body {
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  background-color: #443c72;
+  background-color: #000000;
   color: #222;
   width: 100%;
   height: 100%;
@@ -227,7 +227,6 @@ h1,
 h2,
 h3 {
   color: #aaaaaa;
-  border-bottom: 1px solid #ddd;
   cursor: default;
   margin: 1em 0 .4em;
 }
@@ -621,8 +620,7 @@ a:hover {
 .crowd {
   background: #1e71b7;
   background: radial-gradient(circle, #1e71b7 0%, #114574 100%);
-  opacity: 0.8;
-  transition: opacity .3s;
+
 }
 
 .crowd:hover {
@@ -831,24 +829,26 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.4);
+ 
 }
 
 .cont .seg .label h1 {
   margin: 0;
-  padding: .2em;
+  padding: 1em;
   font-size: 150%;
-  color: #fff;
+  color: #e3b692;
   border-bottom: none;
   cursor: pointer;
+  text-align: center
 }
 
 .cont .seg .label h2 {
   margin: 0;
-  padding: .2em;
+  padding: 0em;
   font-size: 100%;
-  color: #fff;
+  color: #e3b692;
   cursor: pointer;
+  text-align: center
 }
 
 .cont .master {
@@ -883,112 +883,23 @@ a:hover {
   right: 0;
 }
 
-.cont .beta:hover:before {
-  content: "β-версия";
-}
-
 .cont .about {
-  background-color: #43220e;
-  background-image: url('../img/about.jpg');
+  background-color: rgb(0, 0, 0);
+  background-image: url('../img/Judgement.png');
 }
 
-.cont .whoopee {
-  background-color: #62352d;
-  background-image: url('../whoopee/img/t1.jpg');
+.cont .peaceful {
+  background-color: rgb(0, 0, 0);
+  background-image: url('../img/Empress.png');
 }
 
-.cont .initiative {
-  background-color: #3d3b47;
-  background-image: url('../tracker/img/f1.jpg');
-}
-
-.cont .topography {
-  background-color: #361c33;
-  background-image: url('../topography/img/f1.jpg');
-}
-
-.cont .background {
-  background-color: #1e2d69;
-  background-image: url('../background/img/t1.jpg');
-}
-
-.cont .random {
-  background-color: #a8310d;
-  background-image: url('../random/img/bg_main.jpg');
-}
-
-.cont .hackerman {
-  background-color: #504b49;
-  background-image: url('../hackerman/img/og.jpg');
-}
-
-.cont .tftl_hook_generator {
-  background-color: #a1d1eb;
-  background-image: url('../tftl_hook_generator/img/og.jpg');
-}
-
-.cont .news_generator {
-  background-color: #efe7cf;
-  background-image: url('../news_generator/img/og.jpg');
-}
-
-.cont .monsters {
-  background-color: #6b344b;
-  background-image: url('../monsters/img/t1.jpg');
-}
-
-.cont .spells {
-  background-color: #4a7383;
-  background-image: url('../spells/img/og.jpg');
-}
-
-.cont .magicItems {
-  background-color: #836e32;
-  background-image: url('../magic-items/img/og.jpg');
-}
-
-.cont .equipment {
-  background-color: #955e40;
-  background-image: url('../equipment/img/og.jpg');
-}
-
-.cont .feats {
-  background-color: #3e89ab;
-  background-image: url('../feats/img/og.jpg');
-}
-
-.cont .invocations {
-  background-color: #2e5262;
-  background-image: url('../invocations/img/og.jpg');
-}
-
-.cont .dw_helper {
-  background-color: #31835b;
-  background-image: url('../dw_master_helper/img/og.jpg');
-}
-
-.cont .names {
-  background-color: #384a4c;
-  background-image: url('../names/img/og_hor2.jpg');
-}
-
-.cont .arch_tables {
-  background-color: #62371e;
-  background-image: url('../_img/archive_tables.jpg');
-}
-
-.cont .arch_articles {
-  background-color: #f2c074;
-  background-image: url('../_img/archive_articles.jpg');
-}
-
-.cont .arch_other {
-  background-color: #f2c074;
-  background-image: url('../_img/archive_other.jpg');
+.cont .war {
+  background-color: rgb(0, 0, 0);
+  background-image: url('../img/Emperor.png');
 }
 
 #content.ephasizedPage {
-  border: solid 1px #eee;
+  border: solid 1px #ffffff;
   box-shadow: 0 5px 15px 2px rgba(77, 77, 77, 0.15);
   border-radius: 3px;
   margin: 0 auto 1em;
@@ -1133,7 +1044,7 @@ a:hover {
 }
 
 #content.ephasizedPage .desc {
-  color: rgba(252, 247, 247, 0.7)
+  color: rgb(255, 255, 255)
 }
 
 .randomTable {
@@ -1269,9 +1180,6 @@ table th:first-child {
 
   #footer .flex_footer {
     flex: 1 1 22rem;
-    /*flex-grow: 1;
-			flex-shrink: 1;
-			min-width: 350px;*/
   }
 
   .maxWidth880 #footer .flex_footer {
